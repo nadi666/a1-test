@@ -1,0 +1,264 @@
+*, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    max-width: 1920px;
+    height: 1916px;
+    background: rebeccapurple;
+}
+main{
+    width: 1903px;
+    height: 1916px;
+    margin: 0 auto;
+    position: relative;
+}
+.top-section{
+    background-image: url('./image/Hue_Saturation 5 1.png');
+    width: 1900px;
+    height: 892px;
+    position: relative;
+}
+.top-section .image_1{
+    width: 1900px;
+    height: 892px; 
+    position: absolute;
+    z-index: 1;
+}
+.top-section .image_2{
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 745px;
+    width: 376px;
+    height: 348px;
+}
+.top-section .image_3{
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    left: 30px;
+    width: 1870px;
+    height: 892px;
+    opacity: .6;
+}
+.top-section .image_4{
+    position: absolute;
+    z-index: 5;
+    top: 243px;
+    left: 523px;
+    width: 766px;
+    height: 525px;
+}
+.top-section .image_5{
+    position: absolute;
+    z-index: 3;
+    top: 16px;
+    left: -46px;
+    width: 626px;
+    height: 876px;
+}
+.top-section .image_6{
+    position: absolute;
+    z-index: 3;
+    top: 15px;
+    left: 1193px;
+    width: 709px;
+    height: 877px;
+}
+.top-section .image_7{
+    position: absolute;
+    z-index: 5;
+    bottom: -1px;
+    left: 13px;
+    width: 1888px;
+    height: 172px;
+}
+.top-section .image_8{
+    position: absolute;
+    z-index: 4;
+    bottom: 0px;
+    left: 0px;
+    width: 1899px;
+    height: 172px;
+}
+.top-section .image_9{
+    position: absolute;
+    z-index: 2;
+    bottom: 0px;
+    left: 1440px;
+    width: 462px;
+    height: 892px;
+    transform: rotate(0deg);    
+}
+.top-section .image_10{
+    position: absolute;
+    z-index: 2;
+    bottom: 0px;
+    left: -0px;
+    width: 462px;
+    height: 892px;
+    transform: rotate(180deg);
+}
+.top-section .text{
+    position: absolute;
+    z-index: 5;
+    width: 929px;
+    height: 101px;
+    bottom: 53px;
+    left: 477px;
+}
+.top-section .text h1{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 49.22px;
+    text-align: center;
+}
+.top-section .text p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;
+    text-align: center;  
+    margin-top: 20px;
+}
+.second-section{
+    background-image: url('./image/background\ wall.png');
+    width: 1903px;
+    height: 1048px;
+    position: relative;
+}
+.second-section .dog{
+    width: 421px;
+    height: 725px;
+    z-index: 2;
+    top: 144px;
+    left: 357px;
+    position: absolute;
+}
+.second-section .ellipse{
+    position: absolute;
+    z-index: 1;
+    top: 1px;
+    left: 1px;
+}
+.second-section h3{
+    color: #416DF4;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    top: 64px;
+    left: 938px;
+}
+.second-section .bttn{
+    position: absolute;
+    top: 145px;
+    left: 1283px;
+    width: 423px;
+    height: 50px;
+}
+.second-section .bttn button{
+    display: inline-block;
+    color: red;
+    border: 1px solid red;
+    background: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding: 5px 9px;
+    margin-left: 35px;
+}
+.second-section ul{
+    border: 1px solid red;
+    width: 690px;
+    position: absolute;
+    top: 185px;
+    right: 288px;
+}
+.second-section ul li{
+    color: white;
+    border-bottom: 1px solid red;
+    padding: 4px 5px;
+}
+.second-section ul li img{
+    width: 64px;
+    height: 64px;
+}
+.second-section ul li{
+    list-style-type: none;
+}
+.second-section .combo{
+    display: flex;
+}
+.second-section .text_li{
+    display: inherit;
+    align-items: center;
+    justify-content: space-between;
+    width: 560px;
+    margin-left: 25px;
+}
+.second-section ul li .text_li p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.second-section ul li .text_li .title{
+    margin-right: 10px;
+    width: 158px;
+    height: 40px;
+    text-align: left;
+}
+.second-section ul li .text_li .days{
+    width: 62px;
+    height: 19px;
+    text-align: center;
+}
+.second-section .sale{
+    width: 474px;
+    height: 332px;
+    top: 698px;
+    left: 945px;
+    position: relative;
+}
+.second-section .sale p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.second-section .sale .btn{
+    width: 180px;
+    height: 110px;
+    top: 167px;
+    left: 255px;
+    position: absolute;
+}
+.second-section .sale button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #FCFF00;
+    border: none;
+    width: 180px;
+    height: 41px;
+    border-radius: 5px;
+}
+.second-section .end{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
